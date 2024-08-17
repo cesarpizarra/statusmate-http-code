@@ -1,0 +1,28 @@
+{
+  "name": "statusmate-http",
+  "version": "1.0.0",
+  "description": "A package that provides human-readable descriptions and helper methods for HTTP status codes.",
+  "main": "./dist/index.ts,",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "http-status-codes",
+    "http-status-codes",
+    "status-codes",
+    "statusmate-http",
+    "statusmate-http-code"
+  ],
+  "author": "Cesar Pizarra <cpizarra002@gmail.com> (http://cpizarra.vercel.app)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.4.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

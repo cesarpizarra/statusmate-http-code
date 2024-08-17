@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // Set the JavaScript language version
+    "module": "commonjs", // Specify what module code is generated
+    "strict": true, // Enable all strict type-checking options
+    "outDir": "./dist", // Output directory for compiled JavaScript files
+    "declaration": true, // Generate corresponding '.d.ts' files
+    "removeComments": true, // Disable emitting comments in JavaScript files
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES Modules
+    "resolveJsonModule": true // Enable importing JSON files
+  },
+  "include": ["src/**/*.ts"], // Include all TypeScript files in the 'src' directory
+  "exclude": ["node_modules", "dist"] // Exclude 'node_modules' and 'dist' directories
+}
