@@ -1,6 +1,6 @@
 {
   "name": "statusmate-http",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A package that provides human-readable descriptions and helper methods for HTTP status codes.",
   "main": "./dist/index.js",
   "scripts": {
